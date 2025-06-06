@@ -15,6 +15,13 @@
       height: auto;
     }
   </style>
+   <script>
+    if (location.hostname === 'lorlearn.app') {
+      const base = document.createElement('base');
+      base.href = '/skills-wireframe/';
+      document.head.appendChild(base);
+    }
+  </script>
 </head>
 <body>
   <img src="skills/wireframe.svg" alt="Wireframe">
